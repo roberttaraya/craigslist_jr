@@ -4,7 +4,7 @@ class CreatePosts < ActiveRecord::Migration
       t.string :title
       t.string :description
       t.string :price
-      t.email :email
+      t.string :email
       t.timestamps
     end
   end
